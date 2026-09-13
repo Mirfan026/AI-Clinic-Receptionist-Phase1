@@ -1,0 +1,2 @@
+clinic_id,tenant_id,name,address,phone,email,timezone,active
+CLINIC-001,TENANT-001,Maple Crescent Family Clinic,"24 Maple Crescent, Garden View District, Lahore, Pakistan",+92 300 555 0147,support@maplecrescent.example,Asia/Karachi,true

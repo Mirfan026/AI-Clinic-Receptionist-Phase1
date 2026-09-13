@@ -1,0 +1,41 @@
+id,question,language,expected_source
+E001,What are the clinic opening hours?,English,clinic_timings
+E002,What time does the clinic close on Saturday?,English,clinic_timings
+E003,کلینک اتوار کو کھلا ہے؟,Urdu,clinic_timings
+E004,Clinic Sunday ko open hota hai?,Roman Urdu,clinic_timings
+E005,What payment methods do you accept?,English,payment_information
+E006,کیا نقد ادائیگی قبول ہے؟,Urdu,payment_information
+E007,Payment cash ya card se ho sakti hai?,Roman Urdu,payment_information
+E008,Monday se Friday clinic kitne baje band hota hai?,Roman Urdu,clinic_timings
+E009,Dr Bilal Hassan kis field mein hain?,Roman Urdu,doctors
+E010,Which doctor specializes in dermatology?,English,doctors
+E011,Skin doctor ka naam kya hai?,Roman Urdu,doctors
+E012,کلینک میں بچوں کے لیے کون سا شعبہ ہے؟,Urdu,doctors
+E013,How much is a cardiology consultation?,English,services
+E014,Dermatology consultation ki fee kya hai?,Roman Urdu,services
+E015,Cardiology ki consultation fee کتنی ہے؟,Mixed,services
+E016,Follow-up consultation kitni der ki hoti hai?,Roman Urdu,services
+E017,How can I contact the clinic?,English,contact_information
+E018,کلینک کا فون نمبر کیا ہے؟,Urdu,contact_information
+E019,Clinic ka email address bata dein.,Roman Urdu,contact_information
+E020,Can I cancel an appointment? How early should I request it?,English,cancellation_policy
+E021,Appointment cancel karne ke liye kitna pehle batana chahiye?,Roman Urdu,cancellation_policy
+E022,کیا اپائنٹمنٹ دوبارہ شیڈول ہو سکتی ہے؟,Urdu,rescheduling_policy
+E023,Can same-day rescheduling be possible?,English,rescheduling_policy
+E024,Clinic mein English aur Urdu dono support hain?,Mixed,faq
+E025,What languages are supported?,English,faq
+E026,Emergency mein AI doctor ki tarah diagnosis karega?,Mixed,emergency_safety_policy
+E027,Does the clinic provide emergency diagnosis?,English,emergency_safety_policy
+E028,Agar urgent situation ho to kya karna chahiye?,Roman Urdu,emergency_safety_policy
+E029,Can I get help from a human staff member?,English,human_support_policy
+E030,Staff se baat karni ho to kis number par call karein?,Mixed,human_support_policy
+U001,Does the clinic have parking?,English,UNAVAILABLE
+U002,Is Wi-Fi available in the waiting room?,English,UNAVAILABLE
+U003,What university did Dr Bilal Hassan attend?,English,UNAVAILABLE
+U004,کیا کلینک ٹیلی میڈیسن فراہم کرتا ہے؟,Urdu,UNAVAILABLE
+U005,Insurance accept hoti hai?,Roman Urdu,UNAVAILABLE
+U006,How long is the usual waiting time?,English,UNAVAILABLE
+U007,Does the clinic have an on-site pharmacy?,English,UNAVAILABLE
+U008,کیا wheelchair parking موجود ہے؟,Mixed,UNAVAILABLE
+U009,Do you offer laboratory blood tests?,English,UNAVAILABLE
+U010,Clinic mein waiting room kitna bara hai?,Roman Urdu,UNAVAILABLE

@@ -1,0 +1,16 @@
+{
+  "dataset": "CLINC150 oos_test",
+  "licence": "CC BY 3.0 Unported",
+  "citation": "Larson et al. 2019 (EMNLP)",
+  "total_queries": 1000,
+  "outcomes": {
+    "abstained": 939,
+    "directory": 29,
+    "safety_refusal": 9,
+    "human_handoff": 2,
+    "clarification": 21
+  },
+  "non_hallucination_rate": 1.0,
+  "hallucination_rate": 0.0,
+  "hallucinations": []
+}

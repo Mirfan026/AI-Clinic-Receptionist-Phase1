@@ -1,0 +1,6 @@
+doctor_id,clinic_id,full_name,specialty,active,qualification,years_experience,languages,room_number
+DR-001,CLINIC-001,Dr. Amina Rahman,General Practice & Family Medicine,true,"MBBS, FCPS (Family Medicine)",14,English;Urdu;Punjabi,R-101
+DR-002,CLINIC-001,Dr. Bilal Hassan,Cardiology,true,"MBBS, FCPS (Cardiology)",18,English;Urdu,R-102
+DR-003,CLINIC-001,Dr. Sara Malik,Dermatology,true,"MBBS, MCPS (Dermatology)",9,English;Urdu,R-103
+DR-004,CLINIC-001,Dr. Hamza Qureshi,Pediatrics,true,"MBBS, FCPS (Paediatrics)",11,English;Urdu;Pashto,R-104
+DR-005,CLINIC-001,Dr. Nadia Ahmed,General Practice & Preventive Care,true,"MBBS, MPH",7,English;Urdu;Sindhi,R-105

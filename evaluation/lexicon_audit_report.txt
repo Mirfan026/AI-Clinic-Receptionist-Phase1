@@ -1,0 +1,203 @@
+Attested headwords: 1394
+
+UNATTESTED LEXICON ENTRIES (may still be valid informal spellings)
+  aapka
+  aapki
+  adaigi
+  address
+  aik
+  apka
+  apki
+  apointment
+  apointments
+  appointments
+  auqat
+  available
+  bachay
+  bachon
+  band
+  bata
+  batadein
+  bataen
+  batana
+  batao
+  bataye
+  bhee
+  bhi
+  btao
+  call
+  cancellations
+  cancelled
+  cardiologist
+  chahiye
+  chahye
+  chaiye
+  chamri
+  charges
+  child
+  children
+  closes
+  communication
+  consultations
+  daktar
+  dastyab
+  de
+  dein
+  den
+  dermatologist
+  do
+  dobara
+  doktor
+  dr
+  ek
+  fee
+  gaya
+  gaye
+  gayi
+  hai
+  hain
+  hay
+  he
+  heart
+  hee
+  hein
+  hi
+  ho
+  hon
+  hoon
+  hota
+  hote
+  hoti
+  hua
+  hui
+  huwa
+  huye
+  is
+  istaff
+  ka
+  kaa
+  kaisa
+  kaisay
+  kaise
+  kar
+  karein
+  karna
+  karne
+  karni
+  karo
+  karta
+  karti
+  kaun
+  kaunsa
+  kay
+  kesa
+  kesay
+  kharcha
+  khula
+  khuli
+  khulta
+  khulti
+  ki
+  kia
+  kii
+  kis
+  kitna
+  kitne
+  kitni
+  kiya
+  ko
+  koi
+  kon
+  konsa
+  kuch
+  kya
+  kyaa
+  languages
+  liye
+  lye
+  me
+  mein
+  men
+  mera
+  mere
+  meri
+  mujhe
+  mujhy
+  mujy
+  multilingual
+  nahi
+  nahin
+  naqd
+  numbers
+  opened
+  opens
+  paisay
+  paise
+  par
+  pata
+  paying
+  payments
+  pays
+  pe
+  pediatric
+  pediatrician
+  physician
+  pr
+  raabta
+  rabta
+  reschedule
+  rescheduled
+  reschedules
+  sarvis
+  se
+  skin
+  support
+  supported
+  tha
+  thay
+  thi
+  time
+  times
+  timing
+  to
+  tou
+  us
+  wo
+  woh
+  ye
+  yeh
+  zaban
+  zubaan
+
+CANDIDATE ADDITIONS (clinic-relevant, not yet in lexicon.py)
+  'ilaaj               cure/treatment/antidote
+  auqaat               hours
+  baar                 time/turn/chance/opportunity/delay/obstacle
+  baarah               time/turn/about/in regard of
+  chaarah              remedy/cure/help/aid/resource
+  daf'a                time/turn/section/class
+  daulat               money
+  dawaa                medicine
+  faryaad              help
+  haftah               a week
+  hakeem               wise man/doctor/philosopher
+  hijaab               veil/modesty/bashfulness/night
+  ishraaq              dawn/day break/lustre
+  maah                 the moon/month
+  madad                help
+  mareez               patient
+  marhalah             stage/inn/day's journey/difficulty
+  martabah             degree/office/class/order
+  muddat               period(of time)
+  mulaaqaat            meeting/encounter/interview/visit
+  mutahammil           affable/tolerant/patient/passive
+  naubat               turn/time
+  qiyaamat             resurrection/judgement day/tumult
+  roz                  a day
+  shaam                evening
+  shab                 night
+  subh                 morning/dawn
+  waa                  open
+  yaum                 a day
+  zabaan               language
+  zamaanah             time/age/period

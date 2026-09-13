@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+build/
+dist/
+*.egg-info/
+
+# Third-party benchmark datasets carry their own licences (one is GPL-3.0) and
+# are downloaded on demand by scripts/fetch_benchmarks.py. Never commit them.
+data/benchmarks/
+
+# Generated at runtime: the SQLite database and the RAG vector index are
+# rebuilt locally by scripts/seed_database.py and RAGPipeline.ensure_index().
+storage/*
+!storage/.gitkeep
+logs/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+.ipynb_checkpoints/

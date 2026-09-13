@@ -1,0 +1,5 @@
+SQLAlchemy==2.0.43
+pydantic==2.13.5
+numpy==2.5.3
+scikit-learn==1.9.1
+streamlit==1.63.0

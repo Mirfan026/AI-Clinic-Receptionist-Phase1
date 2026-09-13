@@ -1,0 +1,6 @@
+doctor_id,tenant_id,clinic_id,full_name,specialty,qualification,languages,consultation_duration_minutes,status
+DR-001,TENANT-001,CLINIC-001,Dr. Amina Rahman,General Practice & Family Medicine,"MBBS, Family Medicine",English|Urdu,30,active
+DR-002,TENANT-001,CLINIC-001,Dr. Bilal Hassan,Cardiology,"MBBS, Cardiology",English|Urdu,30,active
+DR-003,TENANT-001,CLINIC-001,Dr. Sara Malik,Dermatology,"MBBS, Dermatology",English|Urdu|Roman Urdu,30,active
+DR-004,TENANT-001,CLINIC-001,Dr. Hamza Qureshi,Pediatrics,"MBBS, Pediatrics",English|Urdu,30,active
+DR-005,TENANT-001,CLINIC-001,Dr. Nadia Ahmed,General Practice & Preventive Care,"MBBS, General Practice",English|Urdu,30,active

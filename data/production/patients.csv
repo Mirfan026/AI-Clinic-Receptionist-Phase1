@@ -1,0 +1,61 @@
+patient_id,clinic_id,full_name,phone,email,active,gender,date_of_birth,preferred_language,city,registered_on
+P-001,CLINIC-001,Ayesha Siddiqui,+92 300 1000001,ayesha.siddiqui@example.com,true,female,2008-01-01,English,Lahore,2026-08-14
+P-002,CLINIC-001,Usman Tariq,+92 300 1000002,usman.tariq@example.com,true,male,2001-06-12,Urdu,Lahore,2026-08-01
+P-003,CLINIC-001,Hina Aslam,+92 300 1000003,hina.aslam@example.com,true,female,1994-11-23,Roman Urdu,Lahore,2026-07-19
+P-004,CLINIC-001,Faisal Mehmood,+92 300 1000004,faisal.mehmood@example.com,true,male,1987-04-06,Urdu,Kasur,2026-07-06
+P-005,CLINIC-001,Rabia Noor,+92 300 1000005,rabia.noor@example.com,true,female,1980-09-17,English,Sheikhupura,2026-06-23
+P-006,CLINIC-001,Kashif Iqbal,+92 300 1000006,kashif.iqbal@example.com,true,male,1973-02-28,English,Gujranwala,2026-06-10
+P-007,CLINIC-001,Sana Javed,+92 300 1000007,sana.javed@example.com,true,female,1966-07-11,Urdu,Faisalabad,2026-05-28
+P-008,CLINIC-001,Imran Shah,+92 300 1000008,imran.shah@example.com,true,male,1959-12-22,Roman Urdu,Lahore,2026-05-15
+P-009,CLINIC-001,Nimra Baig,+92 300 1000009,nimra.baig@example.com,true,female,1952-05-05,Urdu,Lahore,2026-05-02
+P-010,CLINIC-001,Adnan Raza,+92 300 1000010,adnan.raza@example.com,true,male,2007-10-16,English,Lahore,2026-04-19
+P-011,CLINIC-001,Mehwish Anwar,+92 300 1000011,mehwish.anwar@example.com,true,female,2000-03-27,English,Kasur,2026-04-06
+P-012,CLINIC-001,Zeeshan Akram,+92 300 1000012,zeeshan.akram@example.com,true,male,1993-08-10,Urdu,Sheikhupura,2026-03-24
+P-013,CLINIC-001,Maryam Farooq,+92 300 1000013,maryam.farooq@example.com,true,female,1986-01-21,Roman Urdu,Gujranwala,2026-03-11
+P-014,CLINIC-001,Taimur Khan,+92 300 1000014,taimur.khan@example.com,true,male,1979-06-04,Urdu,Faisalabad,2026-02-26
+P-015,CLINIC-001,Zainab Haider,+92 300 1000015,zainab.haider@example.com,true,female,1972-11-15,English,Lahore,2026-02-13
+P-016,CLINIC-001,Arsalan Gul,+92 300 1000016,arsalan.gul@example.com,true,male,1965-04-26,English,Lahore,2026-01-31
+P-017,CLINIC-001,Zohaib Rashid,+92 300 1000017,zohaib.rashid@example.com,true,male,1958-09-09,Urdu,Lahore,2026-01-18
+P-018,CLINIC-001,Owais Malik,+92 300 1000018,owais.malik@example.com,true,male,1951-02-20,Roman Urdu,Kasur,2026-01-05
+P-019,CLINIC-001,Talha Saeed,+92 300 1000019,talha.saeed@example.com,true,male,2006-07-03,Urdu,Sheikhupura,2025-12-23
+P-020,CLINIC-001,Anum Shafiq,+92 300 1000020,anum.shafiq@example.com,true,female,1999-12-14,English,Gujranwala,2025-12-10
+P-021,CLINIC-001,Fatima Zahra,+92 300 1000021,fatima.zahra@example.com,true,female,1992-05-25,English,Faisalabad,2025-11-27
+P-022,CLINIC-001,Saad Nasir,+92 300 1000022,saad.nasir@example.com,true,male,1985-10-08,Urdu,Lahore,2025-11-14
+P-023,CLINIC-001,Areeba Khan,+92 300 1000023,areeba.khan@example.com,true,female,1978-03-19,Roman Urdu,Lahore,2025-11-01
+P-024,CLINIC-001,Eman Waseem,+92 300 1000024,eman.waseem@example.com,true,female,1971-08-02,Urdu,Lahore,2025-10-19
+P-025,CLINIC-001,Noman Ijaz,+92 300 1000025,noman.ijaz@example.com,true,male,1964-01-13,English,Kasur,2025-10-06
+P-026,CLINIC-001,Umair Sohail,+92 300 1000026,umair.sohail@example.com,true,male,1957-06-24,English,Sheikhupura,2025-09-23
+P-027,CLINIC-001,Shazia Parveen,+92 300 1000027,shazia.parveen@example.com,true,female,1950-11-07,Urdu,Gujranwala,2025-09-10
+P-028,CLINIC-001,Mahnoor Abbas,+92 300 1000028,mahnoor.abbas@example.com,true,female,2005-04-18,Roman Urdu,Faisalabad,2025-08-28
+P-029,CLINIC-001,Bilawal Khalid,+92 300 1000029,bilawal.khalid@example.com,true,male,1998-09-01,Urdu,Lahore,2025-08-15
+P-030,CLINIC-001,Kamran Dar,+92 300 1000030,kamran.dar@example.com,true,male,1991-02-12,English,Lahore,2025-08-02
+P-031,CLINIC-001,Rida Saleem,+92 300 1000031,rida.saleem@example.com,true,female,1984-07-23,English,Lahore,2025-07-20
+P-032,CLINIC-001,Kiran Yousaf,+92 300 1000032,kiran.yousaf@example.com,true,female,1977-12-06,Urdu,Kasur,2025-07-07
+P-033,CLINIC-001,Momina Ali,+92 300 1000033,momina.ali@example.com,true,female,1970-05-17,Roman Urdu,Sheikhupura,2025-06-24
+P-034,CLINIC-001,Asad Mahmood,+92 300 1000034,asad.mahmood@example.com,true,male,1963-10-28,Urdu,Gujranwala,2025-06-11
+P-035,CLINIC-001,Sadia Rehman,+92 300 1000035,sadia.rehman@example.com,true,female,1956-03-11,English,Faisalabad,2025-05-29
+P-036,CLINIC-001,Junaid Akhtar,+92 300 1000036,junaid.akhtar@example.com,true,male,1949-08-22,English,Lahore,2025-05-16
+P-037,CLINIC-001,Sidra Qamar,+92 300 1000037,sidra.qamar@example.com,true,female,2004-01-05,Urdu,Lahore,2025-05-03
+P-038,CLINIC-001,Salman Butt,+92 300 1000038,salman.butt@example.com,true,male,1997-06-16,Roman Urdu,Lahore,2025-04-20
+P-039,CLINIC-001,Waleed Chaudhry,+92 300 1000039,waleed.chaudhry@example.com,true,male,1990-11-27,Urdu,Kasur,2025-04-07
+P-040,CLINIC-001,Fahad Zaman,+92 300 1000040,fahad.zaman@example.com,true,male,1983-04-10,English,Sheikhupura,2025-03-25
+P-041,CLINIC-001,Mudassir Ali,+92 300 1000041,mudassir.ali@example.com,true,male,1976-09-21,English,Gujranwala,2025-03-12
+P-042,CLINIC-001,Iqra Nawaz,+92 300 1000042,iqra.nawaz@example.com,true,female,1969-02-04,Urdu,Faisalabad,2025-02-27
+P-043,CLINIC-001,Tooba Ashraf,+92 300 1000043,tooba.ashraf@example.com,true,female,1962-07-15,Roman Urdu,Lahore,2025-02-14
+P-044,CLINIC-001,Rehan Aziz,+92 300 1000044,rehan.aziz@example.com,true,male,1955-12-26,Urdu,Lahore,2025-02-01
+P-045,CLINIC-001,Rizwan Aslam,+92 300 1000045,rizwan.aslam@example.com,true,male,1948-05-09,English,Lahore,2025-01-19
+P-046,CLINIC-001,Bushra Latif,+92 300 1000046,bushra.latif@example.com,true,female,2003-10-20,English,Kasur,2025-01-06
+P-047,CLINIC-001,Saba Riaz,+92 300 1000047,saba.riaz@example.com,true,female,1996-03-03,Urdu,Sheikhupura,2024-12-24
+P-048,CLINIC-001,Haris Sheikh,+92 300 1000048,haris.sheikh@example.com,true,male,1989-08-14,Roman Urdu,Gujranwala,2024-12-11
+P-049,CLINIC-001,Warda Kamal,+92 300 1000049,warda.kamal@example.com,true,female,1982-01-25,Urdu,Faisalabad,2024-11-28
+P-050,CLINIC-001,Bilal Ahmed,+92 300 1000050,bilal.ahmed@example.com,true,male,1975-06-08,English,Lahore,2024-11-15
+P-051,CLINIC-001,Ammar Hayat,+92 300 1000051,ammar.hayat@example.com,true,male,1968-11-19,English,Lahore,2024-11-02
+P-052,CLINIC-001,Komal Bashir,+92 300 1000052,komal.bashir@example.com,true,female,1961-04-02,Urdu,Lahore,2024-10-20
+P-053,CLINIC-001,Amna Rauf,+92 300 1000053,amna.rauf@example.com,true,female,1954-09-13,Roman Urdu,Kasur,2024-10-07
+P-054,CLINIC-001,Danish Iqbal,+92 300 1000054,danish.iqbal@example.com,true,male,1947-02-24,Urdu,Sheikhupura,2024-09-24
+P-055,CLINIC-001,Hassan Raza,+92 300 1000055,hassan.raza@example.com,true,male,2002-07-07,English,Gujranwala,2024-09-11
+P-056,CLINIC-001,Noor Fatima,+92 300 1000056,noor.fatima@example.com,true,female,1995-12-18,English,Faisalabad,2024-08-29
+P-057,CLINIC-001,Hafsa Munir,+92 300 1000057,hafsa.munir@example.com,true,female,1988-05-01,Urdu,Lahore,2024-08-16
+P-058,CLINIC-001,Nida Sultan,+92 300 1000058,nida.sultan@example.com,true,female,1981-10-12,Roman Urdu,Lahore,2024-08-03
+P-059,CLINIC-001,Shahzaib Qadir,+92 300 1000059,shahzaib.qadir@example.com,true,male,1974-03-23,Urdu,Lahore,2024-07-21
+P-060,CLINIC-001,Laiba Hussain,+92 300 1000060,laiba.hussain@example.com,true,female,1967-08-06,English,Kasur,2024-07-08

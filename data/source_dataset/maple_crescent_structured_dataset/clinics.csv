@@ -1,0 +1,2 @@
+clinic_id,tenant_id,clinic_name,clinic_type,phone,email,address,city,country,timezone,status
+CLINIC-001,TENANT-001,Maple Crescent Family Clinic,general_outpatient,+92-300-555-0147,support@maplecrescent.example,"24 Maple Crescent, Garden View District",Lahore,Pakistan,Asia/Karachi,active

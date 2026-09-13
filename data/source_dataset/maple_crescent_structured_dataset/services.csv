@@ -1,0 +1,10 @@
+service_id,tenant_id,clinic_id,service_name,category,duration_minutes,price,currency,status
+SERVICE-001,TENANT-001,CLINIC-001,General Physician Consultation,General Medicine,30,2000,PKR,active
+SERVICE-002,TENANT-001,CLINIC-001,Follow-up Consultation,General Medicine,20,1200,PKR,active
+SERVICE-003,TENANT-001,CLINIC-001,Family Medicine Consultation,Family Medicine,30,2000,PKR,active
+SERVICE-004,TENANT-001,CLINIC-001,Cardiology Consultation,Specialist,30,3500,PKR,active
+SERVICE-005,TENANT-001,CLINIC-001,Dermatology Consultation,Specialist,30,3000,PKR,active
+SERVICE-006,TENANT-001,CLINIC-001,Pediatric Consultation,Specialist,30,2500,PKR,active
+SERVICE-007,TENANT-001,CLINIC-001,Preventive Health Consultation,Preventive Care,30,2000,PKR,active
+SERVICE-008,TENANT-001,CLINIC-001,Health Screening Consultation,Preventive Care,30,2200,PKR,active
+SERVICE-009,TENANT-001,CLINIC-001,Chronic Care Follow-up,Follow-up,20,1500,PKR,active

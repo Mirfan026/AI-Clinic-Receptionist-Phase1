@@ -1,0 +1,10 @@
+service_id,clinic_id,name,duration_minutes,fee_pkr,active,category,description,follow_up_days
+SERVICE-001,CLINIC-001,General Physician Consultation,30,2000,true,consultation,First assessment with a general physician.,14
+SERVICE-002,CLINIC-001,Follow-up Consultation,20,1200,true,follow_up,Review visit for an existing treatment plan.,30
+SERVICE-003,CLINIC-001,Family Medicine Consultation,30,2000,true,consultation,Whole-family primary care consultation.,21
+SERVICE-004,CLINIC-001,Cardiology Consultation,30,3500,true,specialist,Specialist cardiac assessment.,30
+SERVICE-005,CLINIC-001,Dermatology Consultation,30,3000,true,specialist,"Specialist skin, hair and nail assessment.",30
+SERVICE-006,CLINIC-001,Pediatric Consultation,30,2500,true,specialist,"Consultation for infants, children and adolescents.",21
+SERVICE-007,CLINIC-001,Preventive Health Consultation,30,2000,true,preventive,"Lifestyle, risk and vaccination review.",180
+SERVICE-008,CLINIC-001,Health Screening Consultation,30,2200,true,preventive,Routine screening and baseline checks.,365
+SERVICE-009,CLINIC-001,Chronic Care Follow-up,20,1500,true,follow_up,Ongoing review for a long-term condition.,60

@@ -1,0 +1,13 @@
+patient_id,tenant_id,clinic_id,full_name,phone,email,preferred_language,status
+PAT-0001,TENANT-001,CLINIC-001,Ahsan Demo,+92-300-555-1001,patient01@example.com,en,active
+PAT-0002,TENANT-001,CLINIC-001,Sara Test,+92-300-555-1002,patient02@example.com,ur,active
+PAT-0003,TENANT-001,CLINIC-001,Ali Sample,+92-300-555-1003,patient03@example.com,roman_ur,active
+PAT-0004,TENANT-001,CLINIC-001,Mariam Synthetic,+92-300-555-1004,patient04@example.com,en,active
+PAT-0005,TENANT-001,CLINIC-001,Usman Example,+92-300-555-1005,patient05@example.com,ur,active
+PAT-0006,TENANT-001,CLINIC-001,Hina Demo,+92-300-555-1006,patient06@example.com,roman_ur,active
+PAT-0007,TENANT-001,CLINIC-001,Zain Test,+92-300-555-1007,patient07@example.com,en,active
+PAT-0008,TENANT-001,CLINIC-001,Noor Sample,+92-300-555-1008,patient08@example.com,ur,active
+PAT-0009,TENANT-001,CLINIC-001,Hamza Example,+92-300-555-1009,patient09@example.com,en,active
+PAT-0010,TENANT-001,CLINIC-001,Iqra Demo,+92-300-555-1010,patient10@example.com,roman_ur,active
+PAT-0011,TENANT-001,CLINIC-001,Danish Test,+92-300-555-1011,patient11@example.com,en,active
+PAT-0012,TENANT-001,CLINIC-001,Mehwish Sample,+92-300-555-1012,patient12@example.com,ur,active

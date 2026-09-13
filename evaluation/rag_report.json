@@ -1,0 +1,511 @@
+{
+  "ingestion": {
+    "documents": 15,
+    "chunks": 15
+  },
+  "config": {
+    "chunk_size": 700,
+    "overlap": 100,
+    "top_k": 5,
+    "threshold": 0.2
+  },
+  "answerable_source_hit_rate": 1.0,
+  "unanswerable_rejection_rate": 1.0,
+  "overall_routing_retrieval_accuracy": 1.0,
+  "language_accuracy": {
+    "English": 1.0,
+    "Urdu": 1.0,
+    "Roman Urdu": 1.0,
+    "Mixed": 1.0
+  },
+  "details": [
+    {
+      "id": "E001",
+      "question": "What are the clinic opening hours?",
+      "expected": "clinic_timings",
+      "retrieved": "cancellation_policy.md",
+      "scores": [
+        0.483,
+        0.467,
+        0.459,
+        0.401,
+        0.395
+      ],
+      "correct": true,
+      "answer": "Clinic Timings Clinic timings: Monday to Friday 9:00 AM to 7:00 PM; Saturday 10:00 AM to 4:00 PM; Sunday closed."
+    },
+    {
+      "id": "E002",
+      "question": "What time does the clinic close on Saturday?",
+      "expected": "clinic_timings",
+      "retrieved": "clinic_timings.md",
+      "scores": [
+        0.486,
+        0.465,
+        0.341,
+        0.312,
+        0.291
+      ],
+      "correct": true,
+      "answer": "Clinic Timings Clinic timings: Monday to Friday 9:00 AM to 7:00 PM; Saturday 10:00 AM to 4:00 PM; Sunday closed."
+    },
+    {
+      "id": "E003",
+      "question": "کلینک اتوار کو کھلا ہے؟",
+      "expected": "clinic_timings",
+      "retrieved": "urdu_faq.md",
+      "scores": [
+        0.46
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E004",
+      "question": "Clinic Sunday ko open hota hai?",
+      "expected": "clinic_timings",
+      "retrieved": "roman_urdu_faq.md",
+      "scores": [
+        0.487,
+        0.484,
+        0.435,
+        0.276,
+        0.264
+      ],
+      "correct": true,
+      "answer": "Clinic Timings Clinic timings: Monday to Friday 9:00 AM to 7:00 PM; Saturday 10:00 AM to 4:00 PM; Sunday closed."
+    },
+    {
+      "id": "E005",
+      "question": "What payment methods do you accept?",
+      "expected": "payment_information",
+      "retrieved": "payment_information.md",
+      "scores": [
+        0.669,
+        0.232,
+        0.224
+      ],
+      "correct": true,
+      "answer": "Payment Information Accepted payment methods are cash, debit card, credit card, and bank transfer."
+    },
+    {
+      "id": "E006",
+      "question": "کیا نقد ادائیگی قبول ہے؟",
+      "expected": "payment_information",
+      "retrieved": "urdu_faq.md",
+      "scores": [
+        0.391
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E007",
+      "question": "Payment cash ya card se ho sakti hai?",
+      "expected": "payment_information",
+      "retrieved": "mixed_faq.md",
+      "scores": [
+        0.581,
+        0.531,
+        0.387
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E008",
+      "question": "Monday se Friday clinic kitne baje band hota hai?",
+      "expected": "clinic_timings",
+      "retrieved": "roman_urdu_faq.md",
+      "scores": [
+        0.679,
+        0.462,
+        0.38
+      ],
+      "correct": true,
+      "answer": "Clinic Monday se Friday 9 baje subah se 7 baje shaam tak, Saturday 10 se 4 tak khula hota hai aur Sunday ko band hota hai."
+    },
+    {
+      "id": "E009",
+      "question": "Dr Bilal Hassan kis field mein hain?",
+      "expected": "doctors",
+      "retrieved": "doctors.md",
+      "scores": [
+        0.441
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E010",
+      "question": "Which doctor specializes in dermatology?",
+      "expected": "doctors",
+      "retrieved": "doctors.md",
+      "scores": [
+        0.329,
+        0.283,
+        0.206
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E011",
+      "question": "Skin doctor ka naam kya hai?",
+      "expected": "doctors",
+      "retrieved": "doctors.md",
+      "scores": [
+        0.296,
+        0.238,
+        0.224
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E012",
+      "question": "کلینک میں بچوں کے لیے کون سا شعبہ ہے؟",
+      "expected": "doctors",
+      "retrieved": "urdu_faq.md",
+      "scores": [
+        0.297
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E013",
+      "question": "How much is a cardiology consultation?",
+      "expected": "services",
+      "retrieved": "services.md",
+      "scores": [
+        0.433,
+        0.202
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E014",
+      "question": "Dermatology consultation ki fee kya hai?",
+      "expected": "services",
+      "retrieved": "services.md",
+      "scores": [
+        0.532
+      ],
+      "correct": true,
+      "answer": "Services Services and fees: General Physician Consultation, 30 minutes, PKR 2,000; Follow-up Consultation, 20 minutes, PKR 1,200; Family Medicine Consultation, 30 minutes, PKR 2,000; Cardiology Consultation, 30 minutes, PKR 3,500; Dermatology Consultation, 30 minutes, PKR 3,000; Pediatric Consultation, 30 minutes, PKR 2,500; Preventive Health Consultation, 30 minutes, PKR 2,000; Health Screening Consultation, 30 minutes, PKR 2,200; Chronic Care Follow-up, 20 minutes, PKR 1,500."
+    },
+    {
+      "id": "E015",
+      "question": "Cardiology ki consultation fee کتنی ہے؟",
+      "expected": "services",
+      "retrieved": "services.md",
+      "scores": [
+        0.522
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E016",
+      "question": "Follow-up consultation kitni der ki hoti hai?",
+      "expected": "services",
+      "retrieved": "services.md",
+      "scores": [
+        0.496
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E017",
+      "question": "How can I contact the clinic?",
+      "expected": "contact_information",
+      "retrieved": "contact_information.md",
+      "scores": [
+        0.509,
+        0.486,
+        0.436,
+        0.269,
+        0.259
+      ],
+      "correct": true,
+      "answer": "Contact Information Clinic contact: +92 300 555 0147 and support@maplecrescent.example. Human support is available through the same phone and email during regular clinic hours."
+    },
+    {
+      "id": "E018",
+      "question": "کلینک کا فون نمبر کیا ہے؟",
+      "expected": "contact_information",
+      "retrieved": "urdu_faq.md",
+      "scores": [
+        0.328,
+        0.233,
+        0.233,
+        0.233
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E019",
+      "question": "Clinic ka email address bata dein.",
+      "expected": "contact_information",
+      "retrieved": "contact_information.md",
+      "scores": [
+        0.373,
+        0.271,
+        0.266
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E020",
+      "question": "Can I cancel an appointment? How early should I request it?",
+      "expected": "cancellation_policy",
+      "retrieved": "cancellation_policy.md",
+      "scores": [
+        0.34
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E021",
+      "question": "Appointment cancel karne ke liye kitna pehle batana chahiye?",
+      "expected": "cancellation_policy",
+      "retrieved": "cancellation_policy.md",
+      "scores": [
+        0.296
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E022",
+      "question": "کیا اپائنٹمنٹ دوبارہ شیڈول ہو سکتی ہے؟",
+      "expected": "rescheduling_policy",
+      "retrieved": "rescheduling_policy.md",
+      "scores": [
+        0.35
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E023",
+      "question": "Can same-day rescheduling be possible?",
+      "expected": "rescheduling_policy",
+      "retrieved": "rescheduling_policy.md",
+      "scores": [
+        0.731,
+        0.421,
+        0.22
+      ],
+      "correct": true,
+      "answer": "Same-day rescheduling may be possible if a suitable slot exists. Rescheduling Policy Appointments can be rescheduled subject to current availability."
+    },
+    {
+      "id": "E024",
+      "question": "Clinic mein English aur Urdu dono support hain?",
+      "expected": "faq",
+      "retrieved": "roman_urdu_faq.md",
+      "scores": [
+        0.508,
+        0.346,
+        0.344,
+        0.241,
+        0.206
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E025",
+      "question": "What languages are supported?",
+      "expected": "faq",
+      "retrieved": "clinic_information.md",
+      "scores": [
+        0.484,
+        0.378,
+        0.376,
+        0.22,
+        0.216
+      ],
+      "correct": true,
+      "answer": "English is the primary language; Urdu and Roman Urdu are supported for communication."
+    },
+    {
+      "id": "E026",
+      "question": "Emergency mein AI doctor ki tarah diagnosis karega?",
+      "expected": "emergency_safety_policy",
+      "retrieved": "emergency_safety_policy.md",
+      "scores": [
+        0.305
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E027",
+      "question": "Does the clinic provide emergency diagnosis?",
+      "expected": "emergency_safety_policy",
+      "retrieved": "emergency_safety_policy.md",
+      "scores": [
+        0.499,
+        0.254,
+        0.251
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E028",
+      "question": "Agar urgent situation ho to kya karna chahiye?",
+      "expected": "emergency_safety_policy",
+      "retrieved": "emergency_safety_policy.md",
+      "scores": [
+        0.363
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E029",
+      "question": "Can I get help from a human staff member?",
+      "expected": "human_support_policy",
+      "retrieved": "human_support_policy.md",
+      "scores": [
+        0.238
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "E030",
+      "question": "Staff se baat karni ho to kis number par call karein?",
+      "expected": "human_support_policy",
+      "retrieved": "human_support_policy.md",
+      "scores": [
+        0.424,
+        0.21
+      ],
+      "correct": true,
+      "answer": "Human Support Policy For complex support requests, unavailable cancellation or rescheduling actions, or issues requiring staff review, contact the clinic team at +92 300 555 0147 or support@maplecrescent.example during regular hours."
+    },
+    {
+      "id": "U001",
+      "question": "Does the clinic have parking?",
+      "expected": "UNAVAILABLE",
+      "retrieved": "cancellation_policy.md",
+      "scores": [
+        0.316,
+        0.287,
+        0.271,
+        0.268,
+        0.25
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "U002",
+      "question": "Is Wi-Fi available in the waiting room?",
+      "expected": "UNAVAILABLE",
+      "retrieved": "appointment_policy.md",
+      "scores": [
+        0.214,
+        0.209
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "U003",
+      "question": "What university did Dr Bilal Hassan attend?",
+      "expected": "UNAVAILABLE",
+      "retrieved": "doctors.md",
+      "scores": [
+        0.418
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "U004",
+      "question": "کیا کلینک ٹیلی میڈیسن فراہم کرتا ہے؟",
+      "expected": "UNAVAILABLE",
+      "retrieved": "urdu_faq.md",
+      "scores": [
+        0.452
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "U005",
+      "question": "Insurance accept hoti hai?",
+      "expected": "UNAVAILABLE",
+      "retrieved": "payment_information.md",
+      "scores": [
+        0.252
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "U006",
+      "question": "How long is the usual waiting time?",
+      "expected": "UNAVAILABLE",
+      "retrieved": null,
+      "scores": [],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "U007",
+      "question": "Does the clinic have an on-site pharmacy?",
+      "expected": "UNAVAILABLE",
+      "retrieved": "cancellation_policy.md",
+      "scores": [
+        0.256,
+        0.226,
+        0.215,
+        0.202,
+        0.201
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "U008",
+      "question": "کیا wheelchair parking موجود ہے؟",
+      "expected": "UNAVAILABLE",
+      "retrieved": null,
+      "scores": [],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "U009",
+      "question": "Do you offer laboratory blood tests?",
+      "expected": "UNAVAILABLE",
+      "retrieved": null,
+      "scores": [],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    },
+    {
+      "id": "U010",
+      "question": "Clinic mein waiting room kitna bara hai?",
+      "expected": "UNAVAILABLE",
+      "retrieved": "roman_urdu_faq.md",
+      "scores": [
+        0.253
+      ],
+      "correct": true,
+      "answer": "The information is unavailable in the clinic knowledge base."
+    }
+  ]
+}
